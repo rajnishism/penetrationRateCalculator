@@ -9,12 +9,28 @@
       name="description"
       content="Web site created using create-react-app"
     />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+      crossorigin="anonymous"
+    ></script>
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
     <!--
       manifest.json provides metadata used when your web app is installed on a
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
     -->
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
     <!--
       Notice the use of %PUBLIC_URL% in the tags above.
       It will be replaced with the URL of the `public` folder during the build.
@@ -26,9 +42,42 @@
     -->
     <title>React App</title>
   </head>
-  <body>
+  <body onload="preloader()">
     <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div
+      style="
+        height: 100vh;
+        width: 100vw;
+        position: fixed;
+        display: flex;
+        justify-content: center;
+        background-color: white;
+      "
+      id="preLoaderDiv"
+    >
+      <!-- <img
+        src="/images/logo.png"
+        alt=""
+        style="margin: auto; display: block; height: 100px"
+      /> -->
+      <iframe
+        src="https://giphy.com/embed/26tn5FsLe5oK6VKVy"
+        width="480"
+        height="360"
+        frameborder="0"
+        class="giphy-embed"
+        allowfullscreen
+        style="margin: auto"
+      ></iframe>
+      <p>
+        <a href="https://giphy.com/gifs/funny-drill-raag-26tn5FsLe5oK6VKVy"
+          >Loading</a
+        >
+      </p>
+    </div>
+
     <div id="root"></div>
+
     <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
@@ -40,4 +89,14 @@
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
   </body>
+  <script src="https://unpkg.com/@themesberg/flowbite@1.1.1/dist/flowbite.bundle.js"></script>
+  <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+  <script>
+    // program to display a text using setTimeout method
+    function stop() {
+      document.getElementById("preLoaderDiv").style.display = "none";
+    }
+
+    setTimeout(stop, 2000);
+  </script>
 </html>

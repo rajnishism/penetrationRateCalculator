@@ -1,0 +1,7 @@
+body {
+  scroll-behavior: smooth;
+}
+div {
+  transition-property: display;
+  transition-timing-function: ease-in;
+}
