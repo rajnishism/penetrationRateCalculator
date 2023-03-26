@@ -30,7 +30,7 @@ const Home = () => {
            "
         >
           <div className="container mx-auto flex lg:flex-row sm:flex-col    items-center items-between h-100 ">
-            <div className="lg:w-1/2 my-6 ">
+            <div className="lg:w-1/2 s:w-1 my-6 ">
               <h6 className="text-lg">
                 <em>Welcome</em>
               </h6>
@@ -45,7 +45,7 @@ const Home = () => {
                 Get Started
               </button>
             </div>
-            <div className="lg:w-1/2">
+            <div className="lg:w-1/2 s:w-1 ">
               <img className="sm:pt-14" src="/images/landing.jpg" alt="pizza" />
             </div>
           </div>
