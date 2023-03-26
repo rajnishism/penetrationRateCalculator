@@ -22,14 +22,14 @@ const Home = () => {
 
   return (
     <>
-      <div style={{ height: "100vh" }} className=" py-6 ">
+      <div style={({ height: "100vh" }, { width: "100vw" })} className=" py-6 ">
         <Navbar />
-        <div className=" flex "></div>
+
         <div
-          className=" py-16 mx-auto flex items-center justify-between
+          className=" py-16 mx-auto lg:flex items-center justify-between
            "
         >
-          <div className="container mx-auto flex lg:flex-row sm:flex-col    items-center items-between h-100 ">
+          <div className="container mx-auto  lg:flex     items-center items-between h-100 ">
             <div className="lg:w-1/2 s:w-1 my-6 ">
               <h6 className="text-lg">
                 <em>Welcome</em>
@@ -52,7 +52,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="flex justify-center " id="card">
+      <div className="lg:flex lg:justify-center">
         <Card
           name="Rotary Percussive"
           methods={rotaryMethods}
@@ -66,6 +66,23 @@ const Home = () => {
           image="rotary.png"
         />
       </div>
+      {/* <div className="block">
+        <div className="lg:flex lg:justify-center " id="card">
+          <Card
+            name="Rotary Percussive"
+            methods={rotaryMethods}
+            routes={r1}
+            image="rotaryPercussive.png"
+          />
+          <Card
+            name="Rotary "
+            methods={rotarypercussiveMethods}
+            routes={r2}
+            image="rotary.png"
+          />
+        </div>
+      </div> */}
+
       <Footer />
     </>
   );
