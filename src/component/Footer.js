@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -15,43 +16,43 @@ const Footer = () => {
                 />
                 <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"></span>
               </a>
-              <ul class=" text-center lg:flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
+              <ul class=" text-center  lg:flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
                 <li>
-                  <a href="/usbm" class="mr-4 hover:underline md:mr-6 ">
+                  <Link to="/usbm" class="mr-4 hover:underline md:mr-6 ">
                     USBM
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="/norway" class="mr-4 hover:underline md:mr-6">
+                  <Link to="/norway" class="mr-4 hover:underline md:mr-6">
                     NORWAY
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="/benaola" class="mr-4 hover:underline md:mr-6 ">
+                  <Link to="/benaola" class="mr-4 hover:underline md:mr-6 ">
                     BENAOLA
-                  </a>
+                  </Link>
                 </li>
 
                 <li>
-                  <a
-                    href="/bauerandcalder"
+                  <Link
+                    to="/bauerandcalder"
                     class="mr-4 hover:underline md:mr-6 "
                   >
                     BAUER & CALDER
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="/baurer" class="mr-4 hover:underline md:mr-6">
+                  <Link to="/baurer" class="mr-4 hover:underline md:mr-6">
                     BAUER
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
-                    href="/calderandworkman"
+                  <Link
+                    to="/calderandworkman"
                     class="mr-4 hover:underline md:mr-6"
                   >
                     CALDER & WORKMAN
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>

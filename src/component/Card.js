@@ -17,22 +17,22 @@ const Card = (props) => {
           </p>
         </div>
         <div className="px-6 pt-4 pb-2">
-          <Link to={routes[0]}>
+          <a href={routes[0]}>
             <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
               {methods[0]}
             </span>
-          </Link>
+          </a>
 
-          <Link to={routes[1]}>
+          <a href={routes[1]}>
             <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
               {methods[1]}
             </span>
-          </Link>
-          <Link to={routes[2]}>
+          </a>
+          <a href={routes[2]}>
             <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
               {methods[2]}
             </span>
-          </Link>
+          </a>
         </div>
       </div>
     </div>

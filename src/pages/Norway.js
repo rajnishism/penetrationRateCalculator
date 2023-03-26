@@ -292,7 +292,9 @@ const Norway = () => {
         <></>
       ) : (
         <>
-          <h4 className="text-center">The Rate of Penetration is-:{answer} </h4>
+          <h4 className="text-center">
+            The Rate of Penetration is-:{answer} cm/min
+          </h4>
         </>
       )}
       <Footer />

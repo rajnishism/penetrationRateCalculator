@@ -158,7 +158,7 @@ const Benaola = () => {
         <></>
       ) : (
         <>
-          <h4 className="text-center">The answer is-:{answer} x 10^6</h4>
+          <h4 className="text-center">The answer is-:{answer} x 10^6 cm/min</h4>
         </>
       )}
       <Footer />
