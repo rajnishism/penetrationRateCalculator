@@ -2,6 +2,10 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
+  function topFunction() {
+    document.body.scrollTop = 0; // For Safari
+    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+  }
   return (
     <>
       <div className="mt-6">
@@ -18,17 +22,29 @@ const Footer = () => {
               </a>
               <ul class=" text-center  lg:flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
                 <li>
-                  <Link to="/usbm" class="mr-4 hover:underline md:mr-6 ">
+                  <Link
+                    to="/usbm"
+                    class="mr-4 hover:underline md:mr-6 "
+                    onClick={topFunction}
+                  >
                     USBM
                   </Link>
                 </li>
                 <li>
-                  <Link to="/norway" class="mr-4 hover:underline md:mr-6">
+                  <Link
+                    to="/norway"
+                    class="mr-4 hover:underline md:mr-6"
+                    onClick={topFunction}
+                  >
                     NORWAY
                   </Link>
                 </li>
                 <li>
-                  <Link to="/benaola" class="mr-4 hover:underline md:mr-6 ">
+                  <Link
+                    to="/benaola"
+                    class="mr-4 hover:underline md:mr-6 "
+                    onClick={topFunction}
+                  >
                     BENAOLA
                   </Link>
                 </li>
@@ -37,12 +53,17 @@ const Footer = () => {
                   <Link
                     to="/bauerandcalder"
                     class="mr-4 hover:underline md:mr-6 "
+                    onClick={topFunction}
                   >
                     BAUER & CALDER
                   </Link>
                 </li>
                 <li>
-                  <Link to="/baurer" class="mr-4 hover:underline md:mr-6">
+                  <Link
+                    to="/baurer"
+                    class="mr-4 hover:underline md:mr-6"
+                    onClick={topFunction}
+                  >
                     BAUER
                   </Link>
                 </li>
@@ -50,6 +71,7 @@ const Footer = () => {
                   <Link
                     to="/calderandworkman"
                     class="mr-4 hover:underline md:mr-6"
+                    onClick={topFunction}
                   >
                     CALDER & WORKMAN
                   </Link>
