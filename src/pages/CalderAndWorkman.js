@@ -129,7 +129,7 @@ const CalderAndWorkman = () => {
         <></>
       ) : (
         <>
-          <h4 className="text-center">The answer is-:{answer}</h4>
+          <h4 className="text-center">The answer is-:{answer / 100000} m/hr</h4>
         </>
       )}
       <Footer />
