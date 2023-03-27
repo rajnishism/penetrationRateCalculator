@@ -1,7 +1,7 @@
 import React from "react";
+import { useRef } from "react";
 import Card from "../component/Card";
 import Form from "../component/Form";
-import { useRef } from "react";
 import { Link } from "react-router-dom";
 import Navbar from "../component/Navbar";
 import Footer from "../component/Footer";
@@ -40,7 +40,7 @@ const Home = () => {
 
               <button
                 className="px-6 py-2 rounded-full text-white font-bold mt-4 bg-yellow-500 hover:bg-yellow-600"
-                onClick={() => window.location.replace("/#card")}
+                onClick={handleClick}
               >
                 Get Started
               </button>
@@ -52,7 +52,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="lg:flex lg:justify-center">
+      <div className="lg:flex lg:justify-center" ref={ref}>
         <Card
           name="Rotary Percussive"
           methods={rotaryMethods}
