@@ -121,7 +121,9 @@ const Baurer = () => {
         <></>
       ) : (
         <>
-          <h4 className="text-center">The answer is-:{answer} feet/hr</h4>
+          <h4 className="text-center">
+            The Expected penetration rate-:{answer} feet/hr
+          </h4>
         </>
       )}
       <Footer />

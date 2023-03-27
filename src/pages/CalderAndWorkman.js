@@ -129,7 +129,9 @@ const CalderAndWorkman = () => {
         <></>
       ) : (
         <>
-          <h4 className="text-center">The answer is-:{answer / 100000} m/hr</h4>
+          <h4 className="text-center">
+            The Expected penetration rate: {answer / 100000} m/hr
+          </h4>
         </>
       )}
       <Footer />
