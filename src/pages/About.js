@@ -7,7 +7,10 @@ const About = () => {
     <div>
       <Navbar />
       <div className="container my-10">
-        <h2>Problem Statement&nbsp;</h2>
+        <h1 className="text-lg">
+          <b>Problem Statement&nbsp;</b>
+        </h1>
+        <br />
         <p>To estimate the probable penetration rate for a:</p>
         <p>1) Rotary Percussive drilling machine</p>
         <p>2) Rotary drilling machine</p>
@@ -35,7 +38,10 @@ const About = () => {
         <p>
           <br />
         </p>
-        <h2>Approach&nbsp;</h2>
+        <h1 className="text-lg">
+          <b>Approach&nbsp;</b>
+        </h1>
+        <br />
         <p>
           To Solve this problem, We are creating a website, where users can
           select from the above mentioned method and give input parameters
@@ -48,7 +54,10 @@ const About = () => {
         <p>
           <br />
         </p>
-        <h2>Technology or Tools Used in this Project</h2>
+        <h1 className="text-lg">
+          <b>Technology /Tool used &nbsp;</b>
+        </h1>
+        <br />
         <ol>
           <li>
             <p>Web Development</p>
@@ -75,17 +84,17 @@ const About = () => {
           </li>
         </ol>
         <p>
-          Dcode Equation Finder tool : to get the equation of function from the
-          data point on the graph (that we get from image processing of graph)
+          &nbsp; &nbsp;Dcode Equation Finder tool : to get the equation of
+          function from the data point on the graph (that we get from image
+          processing of graph)
         </p>
         <p>
           <br />
         </p>
-        <h2>
-          Refrences:
-          <br />
-          <br />
-        </h2>
+        <h1 className="text-lg">
+          <b>References &nbsp;</b>
+        </h1>
+        <br />
         <p>Dcode equation finder:</p>
         <p>
           <a href="https://www.dcode.fr/function-equation-finder">
@@ -93,9 +102,11 @@ const About = () => {
           </a>
         </p>
         <p>
+          <br />
           Drilling and Blasting of Rocks by C. Lopez Jimeno (Author), E. Lopez
           Jimeno (Author), Francisco Javier Ayala Carcedo (Author).
         </p>
+        <br />
         <p>WebPlotDigitizer:</p>
         <p>
           <a href="https://apps.automeris.io/wpd/">
@@ -105,13 +116,12 @@ const About = () => {
         <p>
           <br />
         </p>
-        <p>
-          <br />
-        </p>
-        <h2>Source Code:</h2>
-        <p>
-          <br />
-        </p>
+        <p></p>
+        <h1 className="text-lg">
+          <b>Source Code &nbsp;</b>
+        </h1>
+        <br />
+        <p></p>
         <p>The Code is uploaded on github:</p>
         <p>
           <br />
@@ -128,10 +138,11 @@ const About = () => {
         <p>
           <br />
         </p>
-        <h2>Contributor and Mentor:</h2>
-        <p>
-          <br />
-        </p>
+        <h1 className="text-lg">
+          <b>Contributor and mentor &nbsp;</b>
+        </h1>
+        <br />
+        <p></p>
         <ul>
           <li>
             <p>Rajnish Kumar (20JE0763)</p>
