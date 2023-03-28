@@ -87,7 +87,7 @@ const Footer = () => {
                 href="https://github.com/rajnishism/penetrationRateCalculator"
                 class="hover:underline"
               >
-                DrillCalculator
+                PenetratinRateCalculator
               </a>
               . All Rights Reserved.
             </div>

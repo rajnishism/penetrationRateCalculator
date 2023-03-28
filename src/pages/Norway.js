@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Navbar from "../component/Navbar";
 import Footer from "../component/Footer";
 
@@ -16,6 +16,11 @@ const Norway = () => {
       // getDrillingMethod();
     }
   };
+  useEffect(() => {
+    getOption();
+    getDrillingMethod();
+  }, [s20]);
+
   const Calculate = (e) => {
     e.preventDefault();
     console.log(s20);
@@ -165,6 +170,7 @@ const Norway = () => {
       setAnswer(0.515 * dri - 1.8);
     }
   };
+
   // const Calculate = (e) => {
   //   e.preventDefault();
   //   console.log(s20);

@@ -159,7 +159,7 @@ const Benaola = () => {
       ) : (
         <>
           <h4 className="text-center">
-            The Expected penetration rate-:{answer} x 10^6 cm/min
+            The Expected penetration rate-:{answer / 1000000} cm/min
           </h4>
         </>
       )}
