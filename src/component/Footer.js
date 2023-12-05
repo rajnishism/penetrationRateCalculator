@@ -79,7 +79,7 @@ const Footer = () => {
               </ul>
             </div>
             <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
-            <div className="text-center">Made with ❤️ in india</div>
+            <div className="text-center">Made with ❤️ in ISM</div>
             <br />
             <div className="text-center block text-sm  text-gray-500 sm:text-center dark:text-gray-400">
               © 2023{" "}
